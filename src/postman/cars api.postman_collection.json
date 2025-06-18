@@ -1,0 +1,1560 @@
+{
+	"info": {
+		"_postman_id": "414df9f6-cc13-46b6-8354-abe3a2cdbfd9",
+		"name": "cars api",
+		"description": "test cars api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45924334"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:3000/api/car-make",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"brand\": \"Ceer\",\n  \"country\": \"Saudi Arabia\"\n}\n\n\n//  {\n//     \"id\": \"6852ec21c489e95e76c11369\",\n//     \"dealerId\": \"6852e920c489e95e76c11352\",\n//     \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n//     \"name\": \"BMW 3 Series\",\n//     \"price\": \"190000\",\n//     \"year\": \"2024\",\n//     \"color\": \"Black\"\n// }"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-make",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-make"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-make",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Ceer\",\n  \"country\": \"Saudi Arabia\"\n}\n\n\n//  {\n//     \"id\": \"6852ec21c489e95e76c11369\",\n//     \"dealerId\": \"6852e920c489e95e76c11352\",\n//     \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n//     \"name\": \"BMW 3 Series\",\n//     \"price\": \"190000\",\n//     \"year\": \"2024\",\n//     \"color\": \"Black\"\n// }"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-make",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-make"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-make",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Ceer\",\n  \"countryId\": \"665fac123456789abcdef12\"\n}\n\n\n//  {\n//     \"id\": \"6852ec21c489e95e76c11369\",\n//     \"dealerId\": \"6852e920c489e95e76c11352\",\n//     \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n//     \"name\": \"BMW 3 Series\",\n//     \"price\": \"190000\",\n//     \"year\": \"2024\",\n//     \"color\": \"Black\"\n// }"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-make",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-make"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car/car-make",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Ceer\",\n  \"countryId\": \"665fac123456789abcdef12\"\n}\n\n\n//  {\n//     \"id\": \"6852ec21c489e95e76c11369\",\n//     \"dealerId\": \"6852e920c489e95e76c11352\",\n//     \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n//     \"name\": \"BMW 3 Series\",\n//     \"price\": \"190000\",\n//     \"year\": \"2024\",\n//     \"color\": \"Black\"\n// }"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car/car-make",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car",
+						"car-make"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dealerId\": \"6852e920c489e95e76c11352\",\n    \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n    \"name\": \"BMW 3 Series\",\n    \"price\": \"190000\",\n    \"year\": \"2024\",\n    \"color\": \"Black\"\n}\n\n\n//  {\n//     \"id\": \"6852ec21c489e95e76c11369\",\n//     \"dealerId\": \"6852e920c489e95e76c11352\",\n//     \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n//     \"name\": \"BMW 3 Series\",\n//     \"price\": \"190000\",\n//     \"year\": \"2024\",\n//     \"color\": \"Black\"\n// }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dealerId\": \"6852e920c489e95e76c11352\",\n    \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n    \"name\": \"BMW 3 Series\",\n    \"price\": \"190000\",\n    \"year\": \"2024\",\n    \"color\": \"Black\"\n}\n\n\n//  {\n//     \"id\": \"6852ec21c489e95e76c11369\",\n//     \"dealerId\": \"6852e920c489e95e76c11352\",\n//     \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n//     \"name\": \"BMW 3 Series\",\n//     \"price\": \"190000\",\n//     \"year\": \"2024\",\n//     \"color\": \"Black\"\n// }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car/car-make/6852ea7fc489e95e76c1135a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dealerId\": \"6852e920c489e95e76c11352\",\n    \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n    \"name\": \"BMW 3 Series\",\n    \"price\": \"190000\",\n    \"year\": \"2024\",\n    \"color\": \"Black\"\n}\n\n\n//  {\n//     \"id\": \"6852ec21c489e95e76c11369\",\n//     \"dealerId\": \"6852e920c489e95e76c11352\",\n//     \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n//     \"name\": \"BMW 3 Series\",\n//     \"price\": \"190000\",\n//     \"year\": \"2024\",\n//     \"color\": \"Black\"\n// }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car/car-make/6852ea7fc489e95e76c1135a",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car",
+						"car-make",
+						"6852ea7fc489e95e76c1135a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car/dealer/6852ea7fc489e95e76c1135a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dealerId\": \"6852e920c489e95e76c11352\",\n    \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n    \"name\": \"BMW 3 Series\",\n    \"price\": \"190000\",\n    \"year\": \"2024\",\n    \"color\": \"Black\"\n}\n\n\n//  {\n//     \"id\": \"6852ec21c489e95e76c11369\",\n//     \"dealerId\": \"6852e920c489e95e76c11352\",\n//     \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n//     \"name\": \"BMW 3 Series\",\n//     \"price\": \"190000\",\n//     \"year\": \"2024\",\n//     \"color\": \"Black\"\n// }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car/dealer/6852ea7fc489e95e76c1135a",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car",
+						"dealer",
+						"6852ea7fc489e95e76c1135a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car/dealer/6852e920c489e95e76c11352",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dealerId\": \"6852e920c489e95e76c11352\",\n    \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n    \"name\": \"BMW 3 Series\",\n    \"price\": \"190000\",\n    \"year\": \"2024\",\n    \"color\": \"Black\"\n}\n\n\n//  {\n//     \"id\": \"6852ec21c489e95e76c11369\",\n//     \"dealerId\": \"6852e920c489e95e76c11352\",\n//     \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n//     \"name\": \"BMW 3 Series\",\n//     \"price\": \"190000\",\n//     \"year\": \"2024\",\n//     \"color\": \"Black\"\n// }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car/dealer/6852e920c489e95e76c11352",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car",
+						"dealer",
+						"6852e920c489e95e76c11352"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car/6852ee159099c171b8385606",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dealerId\": \"6852e920c489e95e76c11352\",\n    \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n    \"name\": \"BMW 3 Series\",\n    \"price\": \"190000\",\n    \"year\": \"2024\",\n    \"color\": \"Black\"\n}\n\n\n//  {\n//     \"id\": \"6852ec21c489e95e76c11369\",\n//     \"dealerId\": \"6852e920c489e95e76c11352\",\n//     \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n//     \"name\": \"BMW 3 Series\",\n//     \"price\": \"190000\",\n//     \"year\": \"2024\",\n//     \"color\": \"Black\"\n// }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car/6852ee159099c171b8385606",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car",
+						"6852ee159099c171b8385606"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car/ ",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dealerId\": \"6852e920c489e95e76c11352\",\n    \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n    \"name\": \"BMW 3 Series\",\n    \"price\": \"190000\",\n    \"year\": \"2024\",\n    \"color\": \"Black\"\n}\n\n\n//  {\n//     \"id\": \"6852ec21c489e95e76c11369\",\n//     \"dealerId\": \"6852e920c489e95e76c11352\",\n//     \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n//     \"name\": \"BMW 3 Series\",\n//     \"price\": \"190000\",\n//     \"year\": \"2024\",\n//     \"color\": \"Black\"\n// }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car/ ",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car",
+						" "
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car/ ",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dealerId\": \"6852e920c489e95e76c11352\",\n    \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n    \"name\": \"BMW 3 Series\",\n    \"price\": \"190000\",\n    \"year\": \"2024\",\n    \"color\": \"Black\"\n}\n\n\n//  {\n//     \"id\": \"6852ec21c489e95e76c11369\",\n//     \"dealerId\": \"6852e920c489e95e76c11352\",\n//     \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n//     \"name\": \"BMW 3 Series\",\n//     \"price\": \"190000\",\n//     \"year\": \"2024\",\n//     \"color\": \"Black\"\n// }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car/ ",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car",
+						" "
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dealerId\": \"6852e920c489e95e76c11352\",\n    \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n    \"name\": \"BMW 3 Series\",\n    \"price\": \"190000\",\n    \"year\": \"2024\",\n    \"color\": \"Black\"\n}\n\n\n//  {\n//     \"id\": \"6852ec21c489e95e76c11369\",\n//     \"dealerId\": \"6852e920c489e95e76c11352\",\n//     \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n//     \"name\": \"BMW 3 Series\",\n//     \"price\": \"190000\",\n//     \"year\": \"2024\",\n//     \"color\": \"Black\"\n// }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dealerId\": \"6852e920c489e95e76c11352\",\n    \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n    \"name\": \"BMW 3 Series\",\n    \"price\": \"190000\",\n    \"year\": \"2024\",\n    \"color\": \"Black\"\n}\n\n\n//  {\n//     \"id\": \"6852ec21c489e95e76c11369\",\n//     \"dealerId\": \"6852e920c489e95e76c11352\",\n//     \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n//     \"name\": \"BMW 3 Series\",\n//     \"price\": \"190000\",\n//     \"year\": \"2024\",\n//     \"color\": \"Black\"\n// }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car/dealer/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dealerId\": \"6852e920c489e95e76c11352\",\n    \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n    \"name\": \"BMW 3 Series\",\n    \"price\": \"190000\",\n    \"year\": \"2024\",\n    \"color\": \"Black\"\n}\n\n\n//  {\n//     \"id\": \"6852ec21c489e95e76c11369\",\n//     \"dealerId\": \"6852e920c489e95e76c11352\",\n//     \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n//     \"name\": \"BMW 3 Series\",\n//     \"price\": \"190000\",\n//     \"year\": \"2024\",\n//     \"color\": \"Black\"\n// }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car/dealer/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car",
+						"dealer",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car/dealer/6852e920c489e95e76c11352",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dealerId\": \"6852e920c489e95e76c11352\",\n    \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n    \"name\": \"BMW 3 Series\",\n    \"price\": \"190000\",\n    \"year\": \"2024\",\n    \"color\": \"Black\"\n}\n\n\n//  {\n//     \"id\": \"6852ec21c489e95e76c11369\",\n//     \"dealerId\": \"6852e920c489e95e76c11352\",\n//     \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n//     \"name\": \"BMW 3 Series\",\n//     \"price\": \"190000\",\n//     \"year\": \"2024\",\n//     \"color\": \"Black\"\n// }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car/dealer/6852e920c489e95e76c11352",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car",
+						"dealer",
+						"6852e920c489e95e76c11352"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car/dealer/6852e920c489e95e76c11352",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dealerId\": \"6852e920c489e95e76c11352\",\n    \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n    \"name\": \"BMW 3 Series\",\n    \"price\": \"190000\",\n    \"year\": \"2024\",\n    \"color\": \"Black\"\n}\n\n\n//  {\n//     \"id\": \"6852ec21c489e95e76c11369\",\n//     \"dealerId\": \"6852e920c489e95e76c11352\",\n//     \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n//     \"name\": \"BMW 3 Series\",\n//     \"price\": \"190000\",\n//     \"year\": \"2024\",\n//     \"color\": \"Black\"\n// }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car/dealer/6852e920c489e95e76c11352",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car",
+						"dealer",
+						"6852e920c489e95e76c11352"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car/dealer/6852e920c489e95e76c11352",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dealerId\": \"6852e920c489e95e76c11352\",\n    \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n    \"name\": \"BMW 3 Series\",\n    \"price\": \"190000\",\n    \"year\": \"2024\",\n    \"color\": \"Black\"\n}\n\n\n//  {\n//     \"id\": \"6852ec21c489e95e76c11369\",\n//     \"dealerId\": \"6852e920c489e95e76c11352\",\n//     \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n//     \"name\": \"BMW 3 Series\",\n//     \"price\": \"190000\",\n//     \"year\": \"2024\",\n//     \"color\": \"Black\"\n// }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car/dealer/6852e920c489e95e76c11352",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car",
+						"dealer",
+						"6852e920c489e95e76c11352"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car/dealer/6852e920c489e95e76c11352",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dealerId\": \"6852e920c489e95e76c11352\",\n    \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n    \"name\": \"BMW 3 Series\",\n    \"price\": \"190000\",\n    \"year\": \"2024\",\n    \"color\": \"Black\"\n}\n\n\n//  {\n//     \"id\": \"6852ec21c489e95e76c11369\",\n//     \"dealerId\": \"6852e920c489e95e76c11352\",\n//     \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n//     \"name\": \"BMW 3 Series\",\n//     \"price\": \"190000\",\n//     \"year\": \"2024\",\n//     \"color\": \"Black\"\n// }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car/dealer/6852e920c489e95e76c11352",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car",
+						"dealer",
+						"6852e920c489e95e76c11352"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car/dealer/6852e920c489e95e76c11352",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dealerId\": \"6852e920c489e95e76c11352\",\n    \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n    \"name\": \"BMW 3 Series\",\n    \"price\": \"190000\",\n    \"year\": \"2024\",\n    \"color\": \"Black\"\n}\n\n\n//  {\n//     \"id\": \"6852ec21c489e95e76c11369\",\n//     \"dealerId\": \"6852e920c489e95e76c11352\",\n//     \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n//     \"name\": \"BMW 3 Series\",\n//     \"price\": \"190000\",\n//     \"year\": \"2024\",\n//     \"color\": \"Black\"\n// }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car/dealer/6852e920c489e95e76c11352",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car",
+						"dealer",
+						"6852e920c489e95e76c11352"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dealerId\": \"6852e920c489e95e76c11352\",\n    \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n    \"name\": \"BMW 3 Series\",\n    \"price\": \"190000\",\n    \"year\": \"2024\",\n    \"color\": \"Black\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dealerId\": \"6852e920c489e95e76c11352\",\n    \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n    \"name\": \"BMW 3 Series\",\n    \"price\": \"190000\",\n    \"year\": \"2024\",\n    \"color\": \"Black\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-dealers/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dealerId\": \"665fadc123456789abcdef01\",\n    \"carMakeId\": \"6852ea7fc489e95e76c1135a\",\n    \"name\": \"BMW 3 Series\",\n    \"price\": \"190000\",\n    \"year\": \"2024\",\n    \"color\": \"Black\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-dealers/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-dealers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-make/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"country\": \"Germany\",\n    \"brand\": \"BMW\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-make/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-make",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-make/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"country\": \"Germany\",\n    \"brand\": \"BMW\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-make/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-make",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-make/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"country\": \"Saudi Arabia\",\n    \"brand\": \"Ceer\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-make/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-make",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-make/6852ea86c489e95e76c1135e",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"country\": \"Saudi Arabia\",\n    \"brand\": \"Ceer\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-make/6852ea86c489e95e76c1135e",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-make",
+						"6852ea86c489e95e76c1135e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-make/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"country\": \"Saudi Arabia\",\n    \"brand\": \"Ceer\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-make/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-make",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-make/6852ea7fc489e95e76c1135a",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"country\": \"Saudi Arabia\",\n    \"brand\": \"Ceer\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-make/6852ea7fc489e95e76c1135a",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-make",
+						"6852ea7fc489e95e76c1135a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-make/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"country\": \"Japan\",\n    \"brand\": \"Toyota\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-make/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-make",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-make/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"country\": \"Japan\",\n    \"brand\": \"Toyota\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-make/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-make",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-make/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"country\": \"Japan\",\n    \"brand\": \"Toyota\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-make/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-make",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-make/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"country\": \"Japan\",\n    \"brand\": \"Toyota\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-make/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-make",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-make/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"country\": \"Japan\",\n    \"brand\": \"Toyota\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-make/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-make",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-makes/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"country\": \"Japan\",\n    \"brand\": \"Toyota\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-makes/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-makes",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-dealers/6852e912c489e95e76c11350",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Updated name\",\n    \"email\": \"elite@motors.com\",\n    \"city\": \"Riyadh\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-dealers/6852e912c489e95e76c11350",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-dealers",
+						"6852e912c489e95e76c11350"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-dealers/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Updated name\",\n    \"email\": \"elite@motors.com\",\n    \"city\": \"Riyadh\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-dealers/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-dealers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-dealers/6852e912c489e95e76c11350",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Updated name\",\n    \"email\": \"elite@motors.com\",\n    \"city\": \"Riyadh\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-dealers/6852e912c489e95e76c11350",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-dealers",
+						"6852e912c489e95e76c11350"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-dealers/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Elite Motors\",\n    \"email\": \"elite@motors.com\",\n    \"city\": \"Riyadh\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-dealers/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-dealers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-dealers/",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Elite Motors\",\n    \"email\": \"elite@motors.com\",\n    \"city\": \"Riyadh\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-dealers/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-dealers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-dealers/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Elite Motors\",\n    \"email\": \"elite@motors.com\",\n    \"city\": \"Riyadh\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-dealers/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-dealers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-dealers/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Elite Motors\",\n    \"email\": \"elite@motors.com\",\n    \"city\": \"Riyadh\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-dealers/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-dealers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-dealers/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Elite Motors\",\n    \"email\": \"elite@motors.com\",\n    \"city\": \"Riyadh\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-dealers/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-dealers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-dealers/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Elite Motors\",\n    \"email\": \"elite@motors.com\",\n    \"city\": \"Riyadh\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-dealers/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-dealers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3000/api/car-dealers/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Elite Motors\",\n    \"email\": \"elite@motors.com\",\n    \"city\": \"Riyadh\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/car-dealers/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"car-dealers",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

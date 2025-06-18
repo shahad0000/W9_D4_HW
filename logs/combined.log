@@ -1,0 +1,116 @@
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T15:55:49.711Z"}
+{"level":"info","message":"GET / 200 33 - 3.758 ms","timestamp":"2025-06-17T15:56:04.951Z"}
+{"level":"info","message":"GET /api/car-dealers 200 26 - 1.367 ms","timestamp":"2025-06-17T15:56:50.248Z"}
+{"level":"info","message":"POST /api/car-dealers 201 125 - 31.035 ms","timestamp":"2025-06-17T15:58:09.833Z"}
+{"level":"info","message":"POST /api/car-dealers 201 123 - 3.087 ms","timestamp":"2025-06-17T15:58:33.320Z"}
+{"level":"info","message":"GET /api/car-dealers 200 227 - 1.517 ms","timestamp":"2025-06-17T15:58:42.052Z"}
+{"level":"info","message":"PUT /api/car-dealers/01JXZ9SECYD4E6VQ6403DKS2MP 200 123 - 4.413 ms","timestamp":"2025-06-17T15:59:14.287Z"}
+{"level":"info","message":"GET /api/car-dealers/ 200 225 - 1.401 ms","timestamp":"2025-06-17T15:59:25.613Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:16:03.961Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:16:18.037Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:16:20.722Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:16:37.095Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:16:48.577Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:16:52.087Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:17:15.379Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:18:05.181Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:21:06.288Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:21:56.471Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:23:17.005Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:26:17.192Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:30:40.850Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:32:09.039Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:33:21.892Z"}
+{"level":"info","message":"GET /api/car-make 200 26 - 15.462 ms","timestamp":"2025-06-17T16:34:10.162Z"}
+{"level":"info","message":"POST /api/car-make 201 81 - 9.084 ms","timestamp":"2025-06-17T16:34:47.328Z"}
+{"level":"info","message":"POST /api/car-make 201 81 - 1.386 ms","timestamp":"2025-06-17T16:35:41.326Z"}
+{"level":"info","message":"GET /api/car-make 200 141 - 1.193 ms","timestamp":"2025-06-17T16:36:04.075Z"}
+{"level":"info","message":"DELETE /api/car-make/01JXZBWGCT39JP3HM5RATRA6XV 200 26 - 4.003 ms","timestamp":"2025-06-17T16:36:24.210Z"}
+{"level":"info","message":"GET /api/car-make/ 200 83 - 0.703 ms","timestamp":"2025-06-17T16:36:30.722Z"}
+{"level":"info","message":"PUT /api/car-make/01JXZBY54CMX03NZ403FH552T0 200 98 - 1.492 ms","timestamp":"2025-06-17T16:36:49.266Z"}
+{"level":"info","message":"GET /api/car-make/ 200 100 - 0.888 ms","timestamp":"2025-06-17T16:36:58.906Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:38:16.801Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:41:15.185Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:41:24.433Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:41:27.698Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:42:40.204Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:51:46.695Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:52:00.771Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:52:26.354Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:52:29.477Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T16:53:17.403Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:01:13.223Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:03:34.723Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:04:53.084Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:05:20.973Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:05:47.812Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:06:40.328Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:16:04.656Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:16:28.020Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:26:27.689Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:28:56.015Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:29:55.939Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:31:21.493Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:31:58.071Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-17T17:35:31.378Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T16:27:27.381Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T16:27:28.654Z"}
+{"level":"info","message":"All collections dropped","timestamp":"2025-06-18T16:27:29.112Z"}
+{"level":"info","message":"GET /api/car-dealers/ 200 26 - 132.336 ms","timestamp":"2025-06-18T16:27:40.985Z"}
+{"level":"info","message":"POST /api/car-dealers/ 201 122 - 131.085 ms","timestamp":"2025-06-18T16:28:02.414Z"}
+{"level":"info","message":"POST /api/car-dealers/ 201 122 - 109.180 ms","timestamp":"2025-06-18T16:28:16.391Z"}
+{"level":"info","message":"GET /api/car-dealers/ 200 223 - 111.350 ms","timestamp":"2025-06-18T16:28:20.902Z"}
+{"level":"info","message":"PUT /api/car-dealers/ 404 155 - 2.471 ms","timestamp":"2025-06-18T16:28:32.667Z"}
+{"level":"info","message":"GET /api/car-dealers/ 200 223 - 108.554 ms","timestamp":"2025-06-18T16:28:44.483Z"}
+{"level":"info","message":"PUT /api/car-dealers/6852e912c489e95e76c11350 200 122 - 126.925 ms","timestamp":"2025-06-18T16:30:18.758Z"}
+{"level":"info","message":"GET /api/car-dealers/ 200 223 - 115.885 ms","timestamp":"2025-06-18T16:30:26.320Z"}
+{"level":"info","message":"DELETE /api/car-dealers/6852e912c489e95e76c11350 200 26 - 121.546 ms","timestamp":"2025-06-18T16:30:37.718Z"}
+{"level":"info","message":"GET /api/car-makes/ 404 153 - 2.717 ms","timestamp":"2025-06-18T16:33:43.293Z"}
+{"level":"info","message":"GET /api/car-make/ 200 26 - 120.308 ms","timestamp":"2025-06-18T16:34:01.214Z"}
+{"level":"info","message":"POST /api/car-make/ 201 26 - 4.670 ms","timestamp":"2025-06-18T16:34:07.238Z"}
+{"level":"info","message":"POST /api/car-make/ 201 26 - 1.250 ms","timestamp":"2025-06-18T16:34:12.492Z"}
+{"level":"info","message":"POST /api/car-make/ 201 26 - 1.549 ms","timestamp":"2025-06-18T16:34:14.186Z"}
+{"level":"info","message":"GET /api/car-make/ 200 232 - 106.715 ms","timestamp":"2025-06-18T16:34:21.640Z"}
+{"level":"info","message":"PUT /api/car-make/6852ea7fc489e95e76c1135a 200 97 - 117.933 ms","timestamp":"2025-06-18T16:36:42.819Z"}
+{"level":"info","message":"GET /api/car-make/ 200 237 - 115.418 ms","timestamp":"2025-06-18T16:36:55.097Z"}
+{"level":"info","message":"DELETE /api/car-make/6852ea86c489e95e76c1135e 200 26 - 109.368 ms","timestamp":"2025-06-18T16:37:09.929Z"}
+{"level":"info","message":"GET /api/car-make/ 200 168 - 107.937 ms","timestamp":"2025-06-18T16:37:18.775Z"}
+{"level":"info","message":"POST /api/car-make/ 201 26 - 2.556 ms","timestamp":"2025-06-18T16:39:38.072Z"}
+{"level":"info","message":"GET /api/car-make/ 200 236 - 107.484 ms","timestamp":"2025-06-18T16:39:43.807Z"}
+{"level":"info","message":"GET /api/car-dealers/ 200 124 - 109.670 ms","timestamp":"2025-06-18T16:40:35.194Z"}
+{"level":"info","message":"POST /api/car/ 201 26 - 10.135 ms","timestamp":"2025-06-18T16:41:05.085Z"}
+{"level":"info","message":"GET /api/car/ 200 205 - 105.898 ms","timestamp":"2025-06-18T16:41:11.489Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T16:46:42.643Z"}
+{"level":"info","message":"GET /api/car/dealer/6852e920c489e95e76c11352 404 178 - 12.692 ms","timestamp":"2025-06-18T16:46:42.782Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T16:46:43.990Z"}
+{"level":"info","message":"All collections dropped","timestamp":"2025-06-18T16:46:44.468Z"}
+{"level":"info","message":"GET /api/car/dealer/6852e920c489e95e76c11352 404 178 - 1.018 ms","timestamp":"2025-06-18T16:46:50.866Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T16:48:29.858Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T16:48:31.265Z"}
+{"level":"info","message":"All collections dropped","timestamp":"2025-06-18T16:48:31.737Z"}
+{"level":"info","message":"GET /api/car/dealer/6852e920c489e95e76c11352 200 26 - 130.363 ms","timestamp":"2025-06-18T16:48:34.174Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T16:48:36.609Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T16:48:37.778Z"}
+{"level":"info","message":"All collections dropped","timestamp":"2025-06-18T16:48:38.248Z"}
+{"level":"info","message":"GET /api/car/dealer/6852e920c489e95e76c11352 200 26 - 127.374 ms","timestamp":"2025-06-18T16:48:42.127Z"}
+{"level":"info","message":"POST /api/car/dealer/ 404 155 - 2.856 ms","timestamp":"2025-06-18T16:49:17.023Z"}
+{"level":"info","message":"POST /api/car/ 201 26 - 10.493 ms","timestamp":"2025-06-18T16:49:25.089Z"}
+{"level":"info","message":"GET /api/car/ 200 205 - 112.571 ms","timestamp":"2025-06-18T16:49:34.779Z"}
+{"level":"info","message":"GET /api/car/%20 400 115 - 4.027 ms","timestamp":"2025-06-18T16:49:53.866Z"}
+{"level":"info","message":"GET /api/car/%20 400 115 - 1.608 ms","timestamp":"2025-06-18T16:49:54.567Z"}
+{"level":"info","message":"GET /api/car/6852ee159099c171b8385606 200 203 - 109.013 ms","timestamp":"2025-06-18T16:50:01.525Z"}
+{"level":"info","message":"GET /api/car/dealer/6852e920c489e95e76c11352 200 205 - 113.578 ms","timestamp":"2025-06-18T16:50:19.484Z"}
+{"level":"info","message":"GET /api/car/dealer/6852ea7fc489e95e76c1135a 200 26 - 111.642 ms","timestamp":"2025-06-18T16:50:37.314Z"}
+{"level":"info","message":"GET /api/car/car-make/6852ea7fc489e95e76c1135a 200 205 - 115.361 ms","timestamp":"2025-06-18T16:50:47.333Z"}
+{"level":"info","message":"POST /api/car/ 201 26 - 8.158 ms","timestamp":"2025-06-18T16:51:13.105Z"}
+{"level":"info","message":"GET /api/car/ 200 385 - 111.679 ms","timestamp":"2025-06-18T16:51:23.306Z"}
+{"level":"info","message":"POST /api/car/car-make 404 156 - 5.638 ms","timestamp":"2025-06-18T16:57:06.493Z"}
+{"level":"info","message":"POST /api/car-make 400 99 - 6.720 ms","timestamp":"2025-06-18T16:57:38.571Z"}
+{"level":"info","message":"POST /api/car-make 400 99 - 1.398 ms","timestamp":"2025-06-18T16:58:44.289Z"}
+{"level":"info","message":"POST /api/car-make 400 99 - 2.414 ms","timestamp":"2025-06-18T16:59:01.603Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T17:25:16.760Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T17:25:18.568Z"}
+{"level":"info","message":"All collections dropped","timestamp":"2025-06-18T17:25:18.989Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T17:25:25.739Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T17:25:27.012Z"}
+{"level":"info","message":"All collections dropped","timestamp":"2025-06-18T17:25:27.487Z"}
