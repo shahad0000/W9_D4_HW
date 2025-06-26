@@ -114,3 +114,8 @@
 {"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-18T17:25:25.739Z"}
 {"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-18T17:25:27.012Z"}
 {"level":"info","message":"All collections dropped","timestamp":"2025-06-18T17:25:27.487Z"}
+{"level":"info","message":"GET /api/car-make/ 200 26 - 1034.722 ms","timestamp":"2025-06-18T18:15:11.805Z"}
+{"level":"info","message":"GET /api/car/ 200 26 - 108.568 ms","timestamp":"2025-06-18T18:15:24.141Z"}
+{"level":"info","message":"POST /api/car/ 201 26 - 19.555 ms","timestamp":"2025-06-18T18:15:29.855Z"}
+{"level":"info","message":"POST /api/car/ 201 26 - 1.621 ms","timestamp":"2025-06-18T18:15:35.766Z"}
+{"level":"info","message":"GET /api/car/ 200 385 - 124.749 ms","timestamp":"2025-06-18T18:15:44.385Z"}
