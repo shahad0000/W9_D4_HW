@@ -4,7 +4,7 @@ import helmet from "helmet";
 import morgan from "morgan";
 import dotenv from "dotenv";
 import logger from "./utils/logger";
-import { dev, port } from "./utils/helpers";
+import { dev } from "./utils/helpers";
 import carDealerRoute from "./routes/carDealer.routes";
 import carMakeRoute from "./routes/carMake.routes";
 import carsRoute from "./routes/car.routes";
@@ -57,6 +57,6 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
 });
 
 // Start server
-app.listen(port, () => {
-  logger.info(`Server is running on port ${port}`);
+app.listen(process.env.PORT || 3000, () => {
+  logger.info(`Server is running on port ${process.env.PORT || 3000}`);
 });
