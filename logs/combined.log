@@ -119,3 +119,8 @@
 {"level":"info","message":"POST /api/car/ 201 26 - 19.555 ms","timestamp":"2025-06-18T18:15:29.855Z"}
 {"level":"info","message":"POST /api/car/ 201 26 - 1.621 ms","timestamp":"2025-06-18T18:15:35.766Z"}
 {"level":"info","message":"GET /api/car/ 200 385 - 124.749 ms","timestamp":"2025-06-18T18:15:44.385Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-26T20:09:06.292Z"}
+{"code":"ENOTFOUND","hostname":"_mongodb._tcp.carsdb.gz1lmof.mongodb.net","level":"error","message":"MongoDB connection error: querySrv ENOTFOUND _mongodb._tcp.carsdb.gz1lmof.mongodb.net","stack":"Error: querySrv ENOTFOUND _mongodb._tcp.carsdb.gz1lmof.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17)","syscall":"querySrv","timestamp":"2025-06-26T20:09:06.305Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-06-26T20:11:20.137Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-06-26T20:11:21.341Z"}
+{"level":"info","message":"All collections dropped","timestamp":"2025-06-26T20:11:21.783Z"}
